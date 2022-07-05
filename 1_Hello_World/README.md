@@ -17,7 +17,7 @@ Registering a request handler to the default HTTP Server is as simple as this:
 ```Go
 
     http.HandleFunc("/", func (Response http.ResponseWriter, Request *http.Request) {
-        fmt.Fprintf(Response, "Hello World")
+        fmt.Fprintf(Response, "<h1>Hello World</h1")
     })
 
 ```
