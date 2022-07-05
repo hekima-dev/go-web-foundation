@@ -50,9 +50,9 @@ The last thing to finish off our basic HTTP server is, to listen on a port to ac
 This is the complete code that you can use to try out the things you’ve learned in this example.
 ```Go
     /* defining package name */
-package main
+    package main
 
-/* importing other go package */
+    /* importing other go package */
     import (
         "fmt"
         "net/http"
